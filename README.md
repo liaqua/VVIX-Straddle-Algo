@@ -4,7 +4,7 @@ An automated trading algorithm that uses volatility-of-volatility signals to exe
 
 ---
 
-## 📊 Strategy Overview
+##  Strategy Overview
 
 This algorithm monitors the CBOE VVIX index (volatility of VIX) to generate trading signals for a long/short position in energy ETFs:
 - **Long**: UGA (United States Gasoline Fund)
@@ -12,7 +12,7 @@ This algorithm monitors the CBOE VVIX index (volatility of VIX) to generate trad
 
 ---
 
-## 🎯 Signal Logic
+##  Signal Logic
 
 ### Entry Conditions
 Both conditions must be met:
@@ -24,7 +24,7 @@ Both conditions must be met:
 
 ---
 
-## 🛠️ Technical Implementation
+## Technical Implementation
 
 | Component | Technology |
 |-----------|------------|
@@ -35,7 +35,7 @@ Both conditions must be met:
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 ```python
 pandas        # Data manipulation and rolling statistics
 numpy         # Numerical computations
@@ -45,7 +45,7 @@ alpaca-py     # Trade execution
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 ```
 .
 ├── strategy.py          # Main strategy logic and execution
@@ -55,7 +55,7 @@ alpaca-py     # Trade execution
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 1. **Clone the repository**
 ```bash
@@ -81,7 +81,7 @@ alpaca-py     # Trade execution
 
 ---
 
-## ⚠️ Risk Disclosure
+##  Risk Disclosure
 
 This is an experimental algorithmic trading strategy developed for **educational purposes only**. 
 
@@ -92,20 +92,16 @@ This is an experimental algorithmic trading strategy developed for **educational
 
 ---
 
-## 📝 License
+##  License
 
 MIT License - See LICENSE file for details
 
 ---
 
-## 👤 Author
+##  Author
 
 **Nicolas Sandoval**
 - High School Student, Coral Reef Senior High
 - Interested in Quantitative Finance & Algorithmic Trading
 
 ---
-
-## 🤝 Contributing
-
-Feedback and suggestions welcome! Feel free to open an issue or submit a pull request.
